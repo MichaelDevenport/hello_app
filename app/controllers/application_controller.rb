@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
   
   def hello
-    render text: "the weather is fine!"
+    render text: "This is the Ruby on Rails Tutorial 3Ed first app"
   end
 end
